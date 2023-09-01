@@ -1,2 +1,7 @@
-package builder;public class InvalidAgeException {
+package builder;
+
+public class InvalidAgeException extends RuntimeException{
+    public InvalidAgeException(){
+
+    }
 }

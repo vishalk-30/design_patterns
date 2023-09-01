@@ -1,2 +1,6 @@
-package builder;public class InvalidPhoneNumberException {
+package builder;
+
+public class InvalidPhoneNumberException extends RuntimeException{
+    public InvalidPhoneNumberException() {
+    }
 }
