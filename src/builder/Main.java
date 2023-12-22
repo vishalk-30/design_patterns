@@ -23,5 +23,17 @@ public class Main {
                 .build();
         //student2.setAge(18);
 
+        DatabaseConnectionPool databaseConnectionPool = DatabaseConnectionPool.builder()
+
+                .name("name")
+                .mysql()
+                .port(3306)
+                .isCompressed()
+                .withCredentials("groot","IamGroot")
+                .build();
+
+
+
+
     }
 }
